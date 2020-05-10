@@ -1,0 +1,12 @@
+server.port: 8888
+spring:
+  application:
+    name: cloudserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${GIT_SCCS}
+          username: ${GIT_USERN}
+          password: ${GIT_PASSWD}
+          searchPaths: /*

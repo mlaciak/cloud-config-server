@@ -6,7 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: ${GIT_SCCS}
+#          uri: ${GIT_SCCS}
+          uri: https://github.com/mlaciak/Cloudrepo
           username: ${GIT_USERN}
           password: ${GIT_PASSWD}
           searchPaths: /*
